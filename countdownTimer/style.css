@@ -50,3 +50,13 @@ h1 {
   z-index: 3; 
   opacity: .5;
 }
+
+.countdown-elements {
+  text-align: center; 
+
+}
+.countdown-elements span {
+  font-size: 1rem;
+
+
+}
