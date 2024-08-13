@@ -23,7 +23,8 @@ body {
 }
 
 h1 {
-  margin-top: 3em;
+  margin-top: 25vh;
+  margin-bottom: 1em;
   font-size: 4rem;
   font-weight: bold;
   text-align: center;
@@ -33,4 +34,10 @@ h1 {
   display: flex;
   justify-content: center; 
 
+}
+
+
+.big-text {
+  font-size: 3rem;
+  margin-right: 1em;
 }
