@@ -15,5 +15,10 @@ body {
   background-image: url("img/newyear.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+
 }
+
