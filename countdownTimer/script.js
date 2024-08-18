@@ -27,7 +27,7 @@ function countDown() {
 
 // if the time is single digit, append a zero to format it
 function formatTime ( time ){
-  return time < 10 ? (`0${time}`) : time )
+  return time < 10 ? (`0${time}`) : time ; 
 }
 //  initial call 
 countDown();
