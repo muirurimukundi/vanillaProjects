@@ -1,3 +1,9 @@
+daysElement = document.getElementById("days");
+hoursElement = document.getElementById("hours"); 
+minutesElement = document.getElementById("minutes");
+secondsElement = document.getElementById("seconds");
+
+
 const newYears = "1 Jan 2025";
 
 function countDown() {
