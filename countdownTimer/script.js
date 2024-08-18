@@ -18,9 +18,9 @@ function countDown() {
   const seconds = Math.floor( totalSeconds )  % 60
   
   daysElement.innerHTML = days;
-  hoursElement.innerHTML = hours;
-  minutesElement.innerHTML = minutes;
-  secondsElement.innerHTML = seconds;
+  hoursElement.innerHTML = formatTime(hours);
+  minutesElement.innerHTML = formatTime(minutes);
+  secondsElement.innerHTML = formatTime(seconds);
 
 }
 
