@@ -53,7 +53,7 @@ const a_text = document.getElementsById("a_text");
 const b_text = document.getElementsById("b_text");
 const c_text = document.getElementsById("c_text");
 const d_text = document.getElementsById("d_text");
-
+const submitBtn = document.getElementById("submit");
 
 let currentQuiz = 0;
 loadQuiz();
@@ -68,3 +68,13 @@ function loadQuiz(){
   d_text.innerText = currentQuizData.d; 
 
 }
+
+submitBtn.addEventListener("click", ()=>{
+  currentQuiz++;
+
+  if(currentQuiz < quizData.length){
+    loadQuiz();
+  } else {
+    alert("You've finished, get yourself a lemonade");
+  }
+})
