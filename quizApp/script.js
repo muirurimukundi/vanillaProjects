@@ -55,10 +55,11 @@ const c_text = document.getElementsById("c_text");
 const d_text = document.getElementsById("d_text");
 
 
-let currentQuestion = 0;
+let currentQuiz = 0;
+loadQuiz();
 
 function loadQuiz(){
-  const currentQuizData = quizData[currentQuestion];
+  const currentQuizData = quizData[currentQuiz];
 
   questionEl.innerText = currentQuizData.question; 
   a_text.innerText = currentQuizData.a; 
