@@ -49,10 +49,10 @@ const quizData = [
 
 const questionEl = document.getElementById('question');
 
-const a_text = document.getElementsById("a_text");
-const b_text = document.getElementsById("b_text");
-const c_text = document.getElementsById("c_text");
-const d_text = document.getElementsById("d_text");
+const a_text = document.getElementById("a_text");
+const b_text = document.getElementById("b_text");
+const c_text = document.getElementById("c_text");
+const d_text = document.getElementById("d_text");
 const submitBtn = document.getElementById("submit");
 
 let currentQuiz = 0;
@@ -71,6 +71,7 @@ function loadQuiz(){
 
 submitBtn.addEventListener("click", ()=>{
   currentQuiz++;
+  console.log(currentQuiz);
 
   if(currentQuiz < quizData.length){
     loadQuiz();

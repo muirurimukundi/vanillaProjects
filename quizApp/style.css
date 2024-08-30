@@ -55,3 +55,7 @@ button {
   text-align: center;
   font-weight: bold;
 }
+
+button#submitBtn:hover{
+  cursor:pointer;
+}
